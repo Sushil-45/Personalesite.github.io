@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+}
+.navlist{
+	flex-direction: column;
+}
+.navbar{
+	flex-direction: column;
+	transition: all 0.3s ease-out;
+	height: 180px;
+}
+.burger{
+	display: block;
+}
+.hnav{
+	height: 50px;
+}
+.vclass{
+	opacity: 0;
+}
+.wrp{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+    box-sizing: border-box;
+}
+.wrapresume{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column-reverse;
+    box-sizing: border-box;
+}
+.rght{
+	 position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 3rem;
+    height: 50vh;
+	 width: 70%;
+}
+.right{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 3rem;
+    height: 80vh;
+    width: 70%;
+}
+img{
+	margin-top: 10px;
+	max-height: 110px;
+	width: 100px;
+}
+#resume{
+	position: relative;
+	left: 10%;
+	display: block;
+	justify-content:left;
+	align-items: left;
+	margin-top: 50px;
+	border-radius: 10px;
+	width: 85%;
+	height: 100%;
+	box-sizing: border-box;
+	background:#fffffe;
+}
+.links{
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	padding: 10px;
+    box-sizing: border-box;
+	border-bottom: 1px solid rgb(92, 82, 82);
+}
+.links h4 a{
+	padding: 1px;
+	margin: 3px;
+	text-decoration: none;
+	color: #000000;
+    box-sizing: border-box;
+	font-weight: 100pxs;
+    font-size: 0.85rem;
+}
+header p {
+    font-family: "verdana",Helvetica,sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: .25em;
+    line-height: 2.3;
+    margin-top: -1em;
+}
+#About{
+	position: relative;
+	left: 10%;
+	display: block;
+	justify-content:left;
+	align-items: left;
+	margin-top: 100px;
+	border-radius: 10px;
+	width: 80%;
+	height: 100%;
+	box-sizing: border-box;
+	background:#fffffe;
+}
+#Contact{
+	position: relative;
+	left: 10%;
+	display: block;
+	justify-content:left;
+	align-items: left;
+	margin-top: 50px;
+	border-radius: 10px;
+	width: 80%;
+	height: 50%;
+	box-sizing: border-box;
+	background:#fffffe;
+}
+#Project{
+	position: relative;
+	left: 10%;
+	display: block;
+	justify-content:left;
+	align-items: left;
+	margin-top: 50px;
+	border-radius: 10px;
+	width: 80%;
+	height: 50%;
+	box-sizing: border-box;
+	background:#fffffe;
+}
+.aprl{
+	display: none;
+}

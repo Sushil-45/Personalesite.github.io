@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1174px)" href="res.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+    <style>
+         .faf {
+             padding: 10px;
+             font-size: 40px;
+             width: 50px;
+             display: inline-block;
+             text-align: center;
+             text-decoration: none;
+             margin: 10px 25px;
+             color:rgb(19, 15, 15);
+            }
+            @media screen and (max-width: 1174px){
+                .faf{
+                     padding: 8px;
+                     font-size: 40px;
+                     width: 50px;
+                     display: inline-block;
+                     text-align: center;
+                     text-decoration: none;
+                     margin: 5px;
+                     color:rgb(19, 15, 15);
+                }
+            }
+     </style>
+</head>
+<body>
+    <header class="head">
+        <nav class="navbar hnav">
+            <ul class="navlist vclass">
+                <li><div class="name"><span><h4><a href="index.html">Sushil Yadav</a></h4></span></div></li>
+                <li><a href="Project.html">Projects</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header> <div data-aos="fade-up">
+    <section class="wrapresume">
+        <div class="rght">
+         <div data-aos="fade-up"
+     data-aos-duration="3000"  data-aos-easing="linear">
+        <img src="sk.jpg">
+        <h1 class="sk">Sushil Yadav</h1>
+       <p class="wd">Web Developer</p>
+       <article class="sclicon">
+        <a href="https://www.instagram.com/sushil._.45/" class="fa fa-instagram faf"></a>
+        <a href="https://www.github.com/sushil-45/" class="fa fa-github faf" ></a>
+          <a href="https://www.linkedin.com/in/sushil-yadav-3b5a6a195" class="fa fa-linkedin faf" ></a>
+       </article>
+       <article class="icons aprl">
+        <p class="btn"><i class="fa fa-calendar"></i> &nbsp;APRIL 16, 2001<br>
+        <a href="#" class="fa fa-location-arrow"> &nbsp;Mumbai, India</a></p>
+       </article></div>
+    </div>
+    <section id="resume">
+         <div data-aos="fade-up"
+     data-aos-duration="3000"><h1 class="title"><a href="Resume.html">RESUME</a></h1></div>
+        <div data-aos="fade-up-right"  data-aos-duration="3000"><div class="links">
+            <h4><a href="#education">EDUCATION</a></h4>
+            <h4><a href="#skills">SKILLS</a></h4>
+            <h4><a href="#references">REFERENCE</a></h4>
+        </div></div>
+        <div data-aos="fade-down-right"  data-aos-duration="3000" data-aos-offset="120">
+        <div id="education">
+            <h4 class="title1">EDUCATION</h4>
+            <article class="degree-container">
+                <header><h4 class="degree">Bachelors of Computer Science</h4><p class="school">
+                <a href="https://www.kesshroffcollege.com">Kes Shroff College </a>, 2021</p></header>
+            </article>
+            <article class="degree-container">
+                <header><h4 class="degree">HSC | 68.92%</h4><p class="school">
+                    <a href="https://www.tcsc.edu.in">Thakur College of Science &amp; Commerce</a>, 2018</p></header>
+            </article>
+            <article class="degree-container">
+                <header><h4 class="degree">SSC | 81.80%</h4><p class="school">
+                    <a href="https://www.sirjpdedcollege.com"> Sir J.p High  School</a>, 2018</p></header>
+            </article>
+        </div></div>
+        <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="3000">
+        <div id="skills">
+            <h4 class="title1">SKILLS</h4>
+            <h4 id="text">HTML</h4>
+            <article class="containeranimate">
+                <h5 class="progressbar">81%</h5>
+            </article>
+            <h4 id="text">CSS</h4>
+            <article class="containeranimate">
+                <h5 class="progressbar1">70%</h5>
+            </article>
+            <h4 id="text">JAVASCRIPT</h4>
+            <article class="containeranimate">
+                <h5 class="progressbar2">60%</h5>
+            </article>
+            <h4 id="text">PYTHON</h4>
+            <article class="containeranimate">
+                <h5 class="progressbar3">51%</h5>
+            </article>
+            <h4 id="text">SQL</h4>
+            <article class="containeranimate">
+                <h5 class="progressbar4">50%</h5>
+            </article>
+            </article>
+            <h4 id="text">REACTJS</h4>
+            <article class="containeranimate">
+                <h5 class="progressbar5">50%</h5>
+            </article>
+        </div></div>
+         <div data-aos="fade-up"
+     data-aos-duration="3000"  data-aos-easing="ease-in">
+        <div id="references">
+            <h4 class="title1">REFERENCE</h4>
+            <p class="ref">Reference are available upon requests.</p>
+        </div></div>
+    </section>
+</section></div>
+<script type="text/javascript">
+	burger = document.querySelector('.burger')
+	navbar = document.querySelector('.navbar')
+	navlist = document.querySelector('.navlist')
+	burger.addEventListener('click', ()=>{
+		navlist.classList.toggle('vclass');
+		navbar.classList.toggle('hnav');
+	})
+</script>
+<!---Aos script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

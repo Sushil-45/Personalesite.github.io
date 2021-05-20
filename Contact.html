@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1174px)" href="res.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+    <style>
+         .faf {
+             padding: 10px;
+             font-size: 40px;
+             width: 50px;
+             display: inline-block;
+             text-align: center;
+             text-decoration: none;
+             margin: 10px 25px;
+             color:rgb(19, 15, 15);
+            }
+            @media screen and (max-width: 1174px){
+                .faf{
+                     padding: 8px;
+                     font-size: 40px;
+                     width: 50px;
+                     display: inline-block;
+                     text-align: center;
+                     text-decoration: none;
+                     margin: 5px;
+                     color:rgb(19, 15, 15);
+                }
+            }
+     </style>
+</head>
+<body>
+    <header class="head">
+        <nav class="navbar hnav">
+            <ul class="navlist vclass">
+                <li><div class="name"><span><h4><a href="index.html">Sushil Yadav</a></h4></span></div></li>
+                <li><a href="Project.html">Projects</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    
+    <div data-aos="fade-up">
+    <section class="wrapresume">
+        <div class="rght">
+            <div data-aos="fade-up"
+     data-aos-duration="3000"  data-aos-easing="linear">
+            <img src="sk.jpg">
+            <h1 class="sk">Sushil Yadav</h1>
+           <p class="wd">Web Developer</p>
+           <article class="sclicon">
+            <a href="https://www.instagram.com/sushil._.45/" class="fa fa-instagram faf" ></a>
+            <a href="https://www.github.com/sushil-45/" class="fa fa-github faf"></a>
+              <a href="https://www.linkedin.com/in/sushil-yadav-3b5a6a195" class="fa fa-linkedin faf" ></a>
+           </article>
+           <article class="icons aprl">
+            <p class="btn"><i class="fa fa-calendar"></i> &nbsp;APRIL 16, 2001<br>
+            <a href="#" class="fa fa-location-arrow"> &nbsp;Mumbai, India</a></p>
+           </article>
+        </div></div>
+    <section id="Contact">
+      <div data-aos="fade-down"
+     data-aos-duration="3000"  data-aos-easing="linear">
+        <h1 class="title"><a href="#Contact">Contact me</a></h1>
+        <h1 class="title"><a href="mailto:sushilsky912@gmail.com">Send Email</a></h1>
+      </div>
+    </section>
+</section></div>
+<script type="text/javascript">
+	burger = document.querySelector('.burger')
+	navbar = document.querySelector('.navbar')
+	navlist = document.querySelector('.navlist')
+	burger.addEventListener('click', ()=>{
+		navlist.classList.toggle('vclass');
+		navbar.classList.toggle('hnav');
+	})
+</script>
+
+<!---Aos script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
